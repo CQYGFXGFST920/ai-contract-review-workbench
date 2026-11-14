@@ -1,0 +1,19 @@
+{
+  "review_date": "2026-11-13",
+  "scope": "allowlisted public release files only",
+  "file_count": 28,
+  "pattern_categories": [
+    "credential_tokens",
+    "private_keys",
+    "absolute_personal_paths",
+    "deployment_identifiers",
+    "personal_email_or_mobile",
+    "original_personal_names"
+  ],
+  "findings": [],
+  "manual_review": "Selected application/config/test files reviewed; no real contracts, company records or credentials found. Generic demo opinions retained.",
+  "env_example_values_blank": true,
+  "git_history_included": false,
+  "workflow_zip_included": false,
+  "limitation": "Pattern and manual review do not prove the absence of every unknown secret or proprietary phrase."
+}
